@@ -36,7 +36,8 @@ class _MainPageState extends State<MainPage> {
         }
       },
       child: Scaffold(
-        appBar: AppBar(
+          resizeToAvoidBottomInset: false,
+          appBar: AppBar(
           title: const Text('Samara'),
           actions: [
             IconButton(
